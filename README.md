@@ -33,3 +33,13 @@ sklearn
 15. git branch -M main
 
 16. git push -u origin main
+
+17. tox command - tox
+
+18. for rebuilding - tox -r 
+
+19. pytest command - pytest -v
+
+20. setup commands - pip install -e . 
+
+21. build your own package commands- python setup.py sdist bdist_wheel
