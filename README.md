@@ -10,14 +10,26 @@ sklearn
 
 4. Install the requirements.txt - pip install -r requirements.txt
 
-5. git init
+5. make a file template.py - touch template.py and then add the content in it for the structure of your model
 
-6. dvc init
+6. Then make a folder data_given - mkdir data_given
 
-7. dvc add data_given/winequality.csv
+7. In the data_given folder add your data.csv file
 
-8. git add .
+8. git init
 
-9. git commit -m "First commit"
+9. dvc init
 
-10. 
+10. dvc add data_given/winequality.csv
+
+11. git add .
+
+12. git commit -m "First commit"
+
+13. create an empty repo on git
+
+14. git remote add origin https://github.com/Tanishkaagarg/DVC-Demo.git
+
+15. git branch -M main
+
+16. git push -u origin main
