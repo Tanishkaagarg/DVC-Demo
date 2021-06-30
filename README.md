@@ -43,3 +43,5 @@ sklearn
 20. setup commands - pip install -e . 
 
 21. build your own package commands- python setup.py sdist bdist_wheel
+
+22. Install jupyter notebook for testing - pip install jupyterlab 
